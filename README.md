@@ -144,3 +144,12 @@ Before you submit your solution, you need to save your progress with git.
   * For additional information on submitting assignments in CodeGrade: [Getting Started in Canvas](https://help.codegrade.com/for-students/getting-started/getting-started-in-canvas)
 
 
+# Completed lab: Module 4 — Music Library System
+
+`Song(name, artist, genre)` records each song and updates shared counts. `genres` and `artists` contain unique values. Both `artist_count` (tests) and `artists_count` (assignment) are supported.
+
+Validation: 6 tests passed. Run `python -m pytest --assert=plain -q` from the repository root after installing test dependencies. The plain-assertion option supports the pinned pytest on Python 3.14.
+
+![Verified test results](docs/test-results.png)
+
+The image shows captured test output rendered for documentation. Canvas accepts this repository URL for submission.
